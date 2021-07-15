@@ -8,8 +8,7 @@ import Sorteio from "./components/Sorteio";
 import "./App.css" 
  
 function App() {
- 
-
+  
   return (
     <div className="App">
       <h1>Exercício React-Redux (Simples)</h1>
@@ -18,7 +17,7 @@ function App() {
       </div> 
       <div className="linha"> 
         <Media />
-        <Soma  />
+        <Soma />
         <Sorteio />   
       </div> 
     </div>
