@@ -1,9 +1,23 @@
 import React from "react"
+import Card from "./components/Card";
+import "./App.css"
 
 function App() {
   return (
     <div className="App">
-      React Redux Simples    
+      <h1>Exercício React-Redux (Simples)</h1>
+      <div className="linha">
+        <Card/>  
+        <Card/>  
+        <Card/>  
+        <Card/>  
+      </div> 
+      <div className="linha">
+        <Card/>  
+        <Card/>  
+        <Card/>  
+        <Card/>  
+      </div> 
     </div>
   );
 }
